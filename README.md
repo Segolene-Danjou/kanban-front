@@ -1,2 +1,2 @@
 # kanban-front
-front du kanban, fonctionne avec la partie API
+Front du kanban, voir la partie back https://github.com/Segolene-Danjou/kanban-api afin de pourvoir s'en servir
