@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "tinyify": "^3.0.0"
+  },
+  "name": "kanban-front",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx watchify -e ./src/app.js -o ./assets/js/bundle.js",
+    "prod": "npx browserify -p tinyify -e ./src/app.js -o ./assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Segolene-Danjou/kanban-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Segolene-Danjou/kanban-front/issues"
+  },
+  "homepage": "https://github.com/Segolene-Danjou/kanban-front#readme"
+}
